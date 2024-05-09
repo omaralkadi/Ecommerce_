@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonApis", "AmazonApis\AmazonApis.csproj", "{444CE98D-6C6B-46A8-8C76-D00EAA41FDB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonCore", "AmazonCore\AmazonCore.csproj", "{6E38C0DD-CCC3-43CE-9742-ABF3E7FA3C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonRepository", "AmazonRepository\AmazonRepository.csproj", "{7A9688D6-9DF4-40E7-A939-60D22D154606}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonService", "AmazonService\AmazonService.csproj", "{978D3FE2-5208-4D66-96A0-FCA52F9A8423}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{444CE98D-6C6B-46A8-8C76-D00EAA41FDB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444CE98D-6C6B-46A8-8C76-D00EAA41FDB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444CE98D-6C6B-46A8-8C76-D00EAA41FDB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444CE98D-6C6B-46A8-8C76-D00EAA41FDB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E38C0DD-CCC3-43CE-9742-ABF3E7FA3C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E38C0DD-CCC3-43CE-9742-ABF3E7FA3C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E38C0DD-CCC3-43CE-9742-ABF3E7FA3C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E38C0DD-CCC3-43CE-9742-ABF3E7FA3C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A9688D6-9DF4-40E7-A939-60D22D154606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A9688D6-9DF4-40E7-A939-60D22D154606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A9688D6-9DF4-40E7-A939-60D22D154606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A9688D6-9DF4-40E7-A939-60D22D154606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978D3FE2-5208-4D66-96A0-FCA52F9A8423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978D3FE2-5208-4D66-96A0-FCA52F9A8423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978D3FE2-5208-4D66-96A0-FCA52F9A8423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978D3FE2-5208-4D66-96A0-FCA52F9A8423}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {414DF610-A140-4F03-AC66-1B091805A695}
+	EndGlobalSection
+EndGlobal

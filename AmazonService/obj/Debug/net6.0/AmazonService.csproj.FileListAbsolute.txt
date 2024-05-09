@@ -1,0 +1,42 @@
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonService\bin\Debug\net6.0\AmazonService.deps.json
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonService\bin\Debug\net6.0\AmazonService.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonService\bin\Debug\net6.0\AmazonService.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.AssemblyInfoInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.AssemblyInfo.cs
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.csproj.CoreCompileInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonService\obj\Debug\net6.0\refint\AmazonService.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonService\obj\Debug\net6.0\ref\AmazonService.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\bin\Debug\net6.0\AmazonService.deps.json
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\bin\Debug\net6.0\AmazonService.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\bin\Debug\net6.0\AmazonService.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.AssemblyInfoInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.AssemblyInfo.cs
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.csproj.CoreCompileInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\obj\Debug\net6.0\refint\AmazonService.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\obj\Debug\net6.0\ref\AmazonService.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\bin\Debug\net6.0\AmazonCore.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\bin\Debug\net6.0\AmazonCore.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.csproj.AssemblyReference.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.csproj.CopyComplete
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.sourcelink.json
+D:\AmazonApis\AmazonService\bin\Debug\net6.0\AmazonService.deps.json
+D:\AmazonApis\AmazonService\bin\Debug\net6.0\AmazonService.dll
+D:\AmazonApis\AmazonService\bin\Debug\net6.0\AmazonService.pdb
+D:\AmazonApis\AmazonService\bin\Debug\net6.0\AmazonCore.dll
+D:\AmazonApis\AmazonService\bin\Debug\net6.0\AmazonCore.pdb
+D:\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.csproj.AssemblyReference.cache
+D:\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.GeneratedMSBuildEditorConfig.editorconfig
+D:\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.AssemblyInfoInputs.cache
+D:\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.AssemblyInfo.cs
+D:\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.csproj.CoreCompileInputs.cache
+D:\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.csproj.CopyComplete
+D:\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.dll
+D:\AmazonApis\AmazonService\obj\Debug\net6.0\refint\AmazonService.dll
+D:\AmazonApis\AmazonService\obj\Debug\net6.0\AmazonService.pdb
+D:\AmazonApis\AmazonService\obj\Debug\net6.0\ref\AmazonService.dll

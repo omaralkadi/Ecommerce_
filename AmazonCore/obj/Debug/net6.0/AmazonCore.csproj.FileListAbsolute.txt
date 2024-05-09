@@ -1,0 +1,36 @@
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonCore\bin\Debug\net6.0\AmazonCore.deps.json
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonCore\bin\Debug\net6.0\AmazonCore.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonCore\bin\Debug\net6.0\AmazonCore.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.AssemblyInfoInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.AssemblyInfo.cs
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.csproj.CoreCompileInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonCore\obj\Debug\net6.0\refint\AmazonCore.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonCore\obj\Debug\net6.0\ref\AmazonCore.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonCore\bin\Debug\net6.0\AmazonCore.deps.json
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonCore\bin\Debug\net6.0\AmazonCore.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonCore\bin\Debug\net6.0\AmazonCore.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.AssemblyInfoInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.AssemblyInfo.cs
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.csproj.CoreCompileInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonCore\obj\Debug\net6.0\refint\AmazonCore.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonCore\obj\Debug\net6.0\ref\AmazonCore.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.csproj.AssemblyReference.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.sourcelink.json
+D:\AmazonApis\AmazonCore\bin\Debug\net6.0\AmazonCore.deps.json
+D:\AmazonApis\AmazonCore\bin\Debug\net6.0\AmazonCore.dll
+D:\AmazonApis\AmazonCore\bin\Debug\net6.0\AmazonCore.pdb
+D:\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.csproj.AssemblyReference.cache
+D:\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.AssemblyInfoInputs.cache
+D:\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.AssemblyInfo.cs
+D:\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.csproj.CoreCompileInputs.cache
+D:\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.dll
+D:\AmazonApis\AmazonCore\obj\Debug\net6.0\refint\AmazonCore.dll
+D:\AmazonApis\AmazonCore\obj\Debug\net6.0\AmazonCore.pdb
+D:\AmazonApis\AmazonCore\obj\Debug\net6.0\ref\AmazonCore.dll

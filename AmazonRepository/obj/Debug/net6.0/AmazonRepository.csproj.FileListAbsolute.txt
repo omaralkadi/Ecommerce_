@@ -1,0 +1,46 @@
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonRepository\bin\Debug\net6.0\AmazonRepository.deps.json
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonRepository\bin\Debug\net6.0\AmazonRepository.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonRepository\bin\Debug\net6.0\AmazonRepository.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonRepository\bin\Debug\net6.0\AmazonCore.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonRepository\bin\Debug\net6.0\AmazonCore.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.csproj.AssemblyReference.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.AssemblyInfoInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.AssemblyInfo.cs
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.csproj.CoreCompileInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.csproj.CopyComplete
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonRepository\obj\Debug\net6.0\refint\AmazonRepository.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Chat Task\AmazonApis\AmazonRepository\obj\Debug\net6.0\ref\AmazonRepository.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\bin\Debug\net6.0\AmazonRepository.deps.json
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\bin\Debug\net6.0\AmazonRepository.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\bin\Debug\net6.0\AmazonRepository.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\bin\Debug\net6.0\AmazonCore.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\bin\Debug\net6.0\AmazonCore.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.csproj.AssemblyReference.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.AssemblyInfoInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.AssemblyInfo.cs
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.csproj.CoreCompileInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.csproj.CopyComplete
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\obj\Debug\net6.0\refint\AmazonRepository.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\obj\Debug\net6.0\ref\AmazonRepository.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.sourcelink.json
+D:\AmazonApis\AmazonRepository\bin\Debug\net6.0\AmazonRepository.deps.json
+D:\AmazonApis\AmazonRepository\bin\Debug\net6.0\AmazonRepository.dll
+D:\AmazonApis\AmazonRepository\bin\Debug\net6.0\AmazonRepository.pdb
+D:\AmazonApis\AmazonRepository\bin\Debug\net6.0\AmazonCore.dll
+D:\AmazonApis\AmazonRepository\bin\Debug\net6.0\AmazonCore.pdb
+D:\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.csproj.AssemblyReference.cache
+D:\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.AssemblyInfoInputs.cache
+D:\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.AssemblyInfo.cs
+D:\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.csproj.CoreCompileInputs.cache
+D:\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.csproj.CopyComplete
+D:\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.dll
+D:\AmazonApis\AmazonRepository\obj\Debug\net6.0\refint\AmazonRepository.dll
+D:\AmazonApis\AmazonRepository\obj\Debug\net6.0\AmazonRepository.pdb
+D:\AmazonApis\AmazonRepository\obj\Debug\net6.0\ref\AmazonRepository.dll
