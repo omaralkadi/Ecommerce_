@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AmazonApis\\AmazonRepository\\AmazonRepository.csproj": {}
+    "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonRepository\\AmazonRepository.csproj": {}
   },
   "projects": {
-    "D:\\AmazonApis\\AmazonCore\\AmazonCore.csproj": {
+    "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonCore\\AmazonCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AmazonApis\\AmazonCore\\AmazonCore.csproj",
+        "projectUniqueName": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonCore\\AmazonCore.csproj",
         "projectName": "AmazonCore",
-        "projectPath": "D:\\AmazonApis\\AmazonCore\\AmazonCore.csproj",
+        "projectPath": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonCore\\AmazonCore.csproj",
         "packagesPath": "C:\\Users\\Omar-ElQady\\.nuget\\packages\\",
-        "outputPath": "D:\\AmazonApis\\AmazonCore\\obj\\",
+        "outputPath": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Omar-ElQady\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "D:\\AmazonApis\\AmazonRepository\\AmazonRepository.csproj": {
+    "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonRepository\\AmazonRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AmazonApis\\AmazonRepository\\AmazonRepository.csproj",
+        "projectUniqueName": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonRepository\\AmazonRepository.csproj",
         "projectName": "AmazonRepository",
-        "projectPath": "D:\\AmazonApis\\AmazonRepository\\AmazonRepository.csproj",
+        "projectPath": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonRepository\\AmazonRepository.csproj",
         "packagesPath": "C:\\Users\\Omar-ElQady\\.nuget\\packages\\",
-        "outputPath": "D:\\AmazonApis\\AmazonRepository\\obj\\",
+        "outputPath": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonRepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Omar-ElQady\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\AmazonApis\\AmazonCore\\AmazonCore.csproj": {
-                "projectPath": "D:\\AmazonApis\\AmazonCore\\AmazonCore.csproj"
+              "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonCore\\AmazonCore.csproj": {
+                "projectPath": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonCore\\AmazonCore.csproj"
               }
             }
           }

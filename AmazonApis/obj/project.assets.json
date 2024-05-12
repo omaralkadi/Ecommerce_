@@ -3215,11 +3215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AmazonApis\\AmazonApis\\AmazonApis.csproj",
+      "projectUniqueName": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonApis\\AmazonApis.csproj",
       "projectName": "AmazonApis",
-      "projectPath": "D:\\AmazonApis\\AmazonApis\\AmazonApis.csproj",
+      "projectPath": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonApis\\AmazonApis.csproj",
       "packagesPath": "C:\\Users\\Omar-ElQady\\.nuget\\packages\\",
-      "outputPath": "D:\\AmazonApis\\AmazonApis\\obj\\",
+      "outputPath": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonApis\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Omar-ElQady\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3236,11 +3236,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\AmazonApis\\AmazonRepository\\AmazonRepository.csproj": {
-              "projectPath": "D:\\AmazonApis\\AmazonRepository\\AmazonRepository.csproj"
+            "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonRepository\\AmazonRepository.csproj": {
+              "projectPath": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonRepository\\AmazonRepository.csproj"
             },
-            "D:\\AmazonApis\\AmazonService\\AmazonService.csproj": {
-              "projectPath": "D:\\AmazonApis\\AmazonService\\AmazonService.csproj"
+            "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonService\\AmazonService.csproj": {
+              "projectPath": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonService\\AmazonService.csproj"
             }
           }
         }

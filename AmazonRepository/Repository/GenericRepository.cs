@@ -23,17 +23,14 @@ namespace AmazonRepository.Repository
         public async Task AddAsync(T input)
         {
             await _dbContext.Set<T>().AddAsync(input);
-            await _dbContext.SaveChangesAsync();
         }
         public async void Delete(T input)
         {
             _dbContext.Set<T>().Remove(input);
-            await _dbContext.SaveChangesAsync();
         }
         public async void Update(T input)
         {
             _dbContext.Set<T>().Update(input);
-            await _dbContext.SaveChangesAsync();
         }
         public async Task<IEnumerable<T>> GetAll()
         {

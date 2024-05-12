@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g0T2zMUH5jZ3+5Du2FTDyWNo4WCa8m02UF5XNtbxtl+ZTw2kHQksEoarAN3cgkIUi90LSKdN1nL8/QzgmLIl3A==",
+  "dgSpecHash": "7PG1S1F/hLIniDG7hR6Zf7wrfmtN0WmMJHIJqrXOB9z8tziWS4mWlVaqHhUvYLoCzcE+CoR+pq4SFbjEdL74FA==",
   "success": true,
-  "projectFilePath": "D:\\AmazonApis\\AmazonApis\\AmazonApis.csproj",
+  "projectFilePath": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonApis\\AmazonApis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

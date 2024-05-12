@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fSeEo1Ea2+JYFdjb6ckQkeoeFOVYS5SZv1ApLWIZ3PwAoOCFia7W7z6qiow9FHq2nxAR7855YrP8vSukeHy1EA==",
+  "dgSpecHash": "/BVTDit0GzCHPLY7EyfPjuBtPJn4TQzG6iYaB2M2Z/CHV6Sw991ozgoXeO4km6UWBivChxlQC/gCWXGQ3MKZFA==",
   "success": true,
-  "projectFilePath": "D:\\AmazonApis\\AmazonCore\\AmazonCore.csproj",
+  "projectFilePath": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonCore\\AmazonCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.29\\microsoft.aspnetcore.cryptography.internal.6.0.29.nupkg.sha512",
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.29\\microsoft.aspnetcore.cryptography.keyderivation.6.0.29.nupkg.sha512",

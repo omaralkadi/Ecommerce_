@@ -1,6 +1,7 @@
 ﻿using AmazonApis.Dtos;
 using AmazonApis.Errors;
 using AmazonApis.Helper;
+using AmazonCore;
 using AmazonCore.Interfaces.Repository;
 using AmazonCore.Specification;
 using AutoMapper;
@@ -14,27 +15,24 @@ namespace AmazonApis.Controllers
 {
     public class ProductController : ApiController
     {
-        private readonly IGenericRepository<Product, int> _repository;
-        private readonly IGenericRepository<ProductBrand, int> _brandRepo;
-        private readonly IGenericRepository<ProductType, int> _typesRepo;
+
+        private readonly IUnitOfWork _unitOfWork;
         public IMapper _Mapper { get; }
 
-        public ProductController(IGenericRepository<Product, int> Repository, IGenericRepository<ProductBrand, int> BrandRepo, IGenericRepository<ProductType, int> TypeRepo, IMapper Mapper)
+        public ProductController(IUnitOfWork unitOfWork, IMapper Mapper)
         {
-            _repository = Repository;
-            _brandRepo = BrandRepo;
+            _unitOfWork = unitOfWork;
             _Mapper = Mapper;
-            _typesRepo = TypeRepo;
         }
         [HttpGet]
         [Authorize]
         public async Task<ActionResult<IEnumerable<Pagination<ProductDto>>>> GetAllProducts([FromQuery] ProductSpecParam param)
         {
             var spec = new productWithBrandAndTypeSpecification(param);
-            var product = await _repository.GetAllWithSpec(spec);
+            var product = await _unitOfWork.Repository<Product>().GetAllWithSpec(spec);
             var mappedProduct = _Mapper.Map<IEnumerable<ProductDto>>(product);
             var CountSpec = new CountWithBrandAndType(param);
-            var Count = await _repository.GetCountWithSpec(CountSpec);
+            var Count = await _unitOfWork.Repository<Product>().GetCountWithSpec(CountSpec);
             var PaginatedData = new Pagination<ProductDto>()
             {
                 Index = param.PageIndex,
@@ -52,14 +50,14 @@ namespace AmazonApis.Controllers
         public async Task<ActionResult<ProductDto>> GetProductById(int id)
         {
             var spec = new productWithBrandAndTypeSpecification(id);
-            var product = await _repository.GetByIdWithSpec(spec);
+            var product = await _unitOfWork.Repository<Product>().GetByIdWithSpec(spec);
             if (product is null) return NotFound(new ApiResponse(404));
             return Ok(_Mapper.Map<ProductDto>(product));
         }
         [HttpGet("GetAllBrands")]
         public async Task<ActionResult<Pagination<ProductBrand>>> GetAllBrands()
         {
-            var Brands = await _brandRepo.GetAll();
+            var Brands = await _unitOfWork.Repository<ProductBrand>().GetAll();
             return Ok(Brands);
 
         }
@@ -67,7 +65,7 @@ namespace AmazonApis.Controllers
         [HttpGet("GetAllTypes")]
         public async Task<ActionResult<ProductBrand>> GetAllTypes()
         {
-            var Types = await _typesRepo.GetAll();
+            var Types = await _unitOfWork.Repository<ProductBrand>().GetAll();
 
             return Ok(Types);
 

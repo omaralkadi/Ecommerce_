@@ -824,11 +824,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AmazonApis\\AmazonCore\\AmazonCore.csproj",
+      "projectUniqueName": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonCore\\AmazonCore.csproj",
       "projectName": "AmazonCore",
-      "projectPath": "D:\\AmazonApis\\AmazonCore\\AmazonCore.csproj",
+      "projectPath": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonCore\\AmazonCore.csproj",
       "packagesPath": "C:\\Users\\Omar-ElQady\\.nuget\\packages\\",
-      "outputPath": "D:\\AmazonApis\\AmazonCore\\obj\\",
+      "outputPath": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Omar-ElQady\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -34,6 +34,15 @@ namespace AmazonCore.Specification
             IsPaginationEnabled = true;
         }
 
-       
+        public void OrderDesc(Expression<Func<T, object>> orderBySpec)
+        {
+            OrderByDesc = orderBySpec;
+        }
+        public void Order(Expression<Func<T, object>> order)
+        {
+            OrderBy = order;
+        }
+
+
     }
 }

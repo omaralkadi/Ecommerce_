@@ -1,4 +1,5 @@
 ﻿using AmazonApis.Errors;
+using AmazonCore;
 using AmazonCore.Entities.Identity;
 using AmazonCore.Interfaces.Repository;
 using AmazonCore.Services;
@@ -85,7 +86,8 @@ namespace AmazonApis.Extensions
                 }); //userManager / SingInManager / RoleManager
 
             Services.AddScoped<ITokenService, TokenService>();
-
+            Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            Services.AddScoped<IOrderService, OrderService>();
             return Services;
         }
 
