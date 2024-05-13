@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/BVTDit0GzCHPLY7EyfPjuBtPJn4TQzG6iYaB2M2Z/CHV6Sw991ozgoXeO4km6UWBivChxlQC/gCWXGQ3MKZFA==",
+  "dgSpecHash": "vhH0mhAWfK3ugnnBTxUf+Q1Z2r+GAM6biqRpSJT0WvqVIkqogCtOBiFdFR6usJNiCjfOkziJZ6iS2oRpYTMxqA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\AmazonApis\\AmazonCore\\AmazonCore.csproj",
   "expectedPackageFiles": [
@@ -22,9 +22,18 @@
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Omar-ElQady\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Omar-ElQady\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Omar-ElQady\\.nuget\\packages\\stripe.net\\44.7.0\\stripe.net.44.7.0.nupkg.sha512",
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\Omar-ElQady\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
-    "C:\\Users\\Omar-ElQady\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\Omar-ElQady\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\Omar-ElQady\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Omar-ElQady\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "C:\\Users\\Omar-ElQady\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "C:\\Users\\Omar-ElQady\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Omar-ElQady\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

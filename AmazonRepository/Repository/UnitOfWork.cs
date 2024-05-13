@@ -30,17 +30,17 @@ namespace AmazonRepository.Repository
         {
             return _context.DisposeAsync();
         }
-        public IGenericRepository<TEntity, int> Repository<TEntity>() where TEntity : BaseEntity<int>
+        public IGenericRepository<TEntity, TKey> Repository<TEntity, TKey>() where TEntity : BaseEntity<TKey>
         {
             var Key = typeof(TEntity).Name;
             if (!_Repository.ContainsKey(Key))
             {
-                var Repository = new GenericRepository<TEntity, int>(_context);
+                var Repository = new GenericRepository<TEntity, TKey>(_context);
                 _Repository.Add(Key, Repository);
 
             }
-            return _Repository[Key] as IGenericRepository<TEntity, int>;
+            return _Repository[Key] as IGenericRepository<TEntity, TKey>;
 
         }
-    }       
+    }
 }

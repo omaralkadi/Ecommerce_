@@ -14,13 +14,14 @@ namespace AmazonCore.Entities.Order
             
         }
 
-        public Order(string buyerEmail, Address shippingAddress, DeliveryMethod deliveryMethod, ICollection<OrderItem> items, decimal subTotal)
+        public Order(string buyerEmail, Address shippingAddress, DeliveryMethod deliveryMethod, ICollection<OrderItem> items, decimal subTotal,string PaymentIntentId)
         {
             BuyerEmail = buyerEmail;
             ShippingAddress = shippingAddress;
             this.deliveryMethod = deliveryMethod;
             this.items = items;
             SubTotal = subTotal;
+            this.PaymentIntentId = PaymentIntentId;
         }
 
         public string BuyerEmail { get; set; }
@@ -31,6 +32,6 @@ namespace AmazonCore.Entities.Order
         public ICollection<OrderItem> items { get; set; }=new HashSet<OrderItem>();
         public decimal SubTotal { get; set; }
         public decimal Total() => SubTotal + deliveryMethod.Cost;
-        public string PaymentIntentId { get; set; } = string.Empty;
+        public string PaymentIntentId { get; set; } 
     }
 }

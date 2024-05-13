@@ -11,7 +11,7 @@ namespace AmazonCore
     public interface IUnitOfWork : IAsyncDisposable
     {
         public Task<int> Complete();
-        IGenericRepository<TEntity, int> Repository<TEntity>() where TEntity:BaseEntity<int>;
+        IGenericRepository<TEntity, TKey> Repository<TEntity, TKey>() where TEntity:BaseEntity<TKey>;
 
     }
 }

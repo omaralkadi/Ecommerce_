@@ -18,11 +18,13 @@ namespace AmazonService
 
         private readonly IUnitOfWork _unitOfWork;
         public IBasketRepository _basketRepository { get; }
-        public OrderService(IBasketRepository basketRepository, IUnitOfWork unitOfWork)
+        public IPaymentService _PaymentService { get; }
+
+        public OrderService(IBasketRepository basketRepository, IUnitOfWork unitOfWork,IPaymentService paymentService)
         {
             _basketRepository = basketRepository;
             _unitOfWork = unitOfWork;
-
+            _PaymentService = paymentService;
         }
 
         public async Task<Order?> CreateOrderAsync(string BuyerEmail, string basketId, int DeliveryMethod, Address Shippingaddress)
@@ -35,7 +37,7 @@ namespace AmazonService
             {
                 foreach (var item in Basket.Items)
                 {
-                    var product = await _unitOfWork.Repository<Product>().GetById(item.Id);
+                    var product = await _unitOfWork.Repository<Product,int>().GetById(item.Id);
                     var ProductItemOrder = new ProductItemOrdered(product.Id, product.Name, product.PictureUrl);
                     var orderItem = new OrderItem(ProductItemOrder, product.Price, item.Quantity);
                     orderItems.Add(orderItem);
@@ -46,12 +48,21 @@ namespace AmazonService
             var SubTotal = orderItems.Sum(item => item.Price * item.Quantity);
 
             //4.Get Delivery Method From DeliveryMethod Repo
-            var DeliveyMethod = await _unitOfWork.Repository<DeliveryMethod>().GetById(DeliveryMethod);
+            var DeliveyMethod = await _unitOfWork.Repository<DeliveryMethod,int>().GetById(DeliveryMethod);
+
+            var Spec = new OrderWithPaymentIntentIdSpec(Basket.PaymentIntentId);
+            var ExOrder = await _unitOfWork.Repository<Order,int>().GetByIdWithSpec(Spec);
+            if(ExOrder is not null)
+            {
+                 _unitOfWork.Repository<Order, int>().Delete(ExOrder);
+                await _PaymentService.CreateOrUpdatePaymentIntent(basketId);
+
+            }
 
             //5.Create Order
-            var order = new Order(BuyerEmail, Shippingaddress, DeliveyMethod, orderItems, SubTotal);
+            var order = new Order(BuyerEmail, Shippingaddress, DeliveyMethod, orderItems, SubTotal,Basket.PaymentIntentId);
             //6.Add Order Locally
-            await _unitOfWork.Repository<Order>().AddAsync(order);
+            await _unitOfWork.Repository<Order,int>().AddAsync(order);
 
             //7.Save Order To Database[ToDo]
             var Result = await _unitOfWork.Complete();
@@ -65,20 +76,20 @@ namespace AmazonService
         public async Task<Order> CreateOrderByIdForSpecificUserAsync(string BuyerEmail, int orderId)
         {
             var spec =new OrderSpecifiction(BuyerEmail,orderId);
-            var order = await _unitOfWork.Repository<Order>().GetByIdWithSpec(spec);
+            var order = await _unitOfWork.Repository<Order,int>().GetByIdWithSpec(spec);
             return order;
         }
 
         public async Task<IEnumerable<Order>> GetOrderForSpecificUserAsync(string BuyerEmail)
         {
             var Spec = new OrderSpecifiction(BuyerEmail);
-            var order = await _unitOfWork.Repository<Order>().GetAllWithSpec(Spec);
+            var order = await _unitOfWork.Repository<Order,int>().GetAllWithSpec(Spec);
             return order;
 
         }
         public async Task<IEnumerable<DeliveryMethod>> GetDeliveryMethod()
         {
-            var methods = await _unitOfWork.Repository<DeliveryMethod>().GetAll();
+            var methods = await _unitOfWork.Repository<DeliveryMethod,int>().GetAll();
             return methods;
 
         }

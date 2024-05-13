@@ -29,10 +29,10 @@ namespace AmazonApis.Controllers
         public async Task<ActionResult<IEnumerable<Pagination<ProductDto>>>> GetAllProducts([FromQuery] ProductSpecParam param)
         {
             var spec = new productWithBrandAndTypeSpecification(param);
-            var product = await _unitOfWork.Repository<Product>().GetAllWithSpec(spec);
+            var product = await _unitOfWork.Repository<Product,int>().GetAllWithSpec(spec);
             var mappedProduct = _Mapper.Map<IEnumerable<ProductDto>>(product);
             var CountSpec = new CountWithBrandAndType(param);
-            var Count = await _unitOfWork.Repository<Product>().GetCountWithSpec(CountSpec);
+            var Count = await _unitOfWork.Repository<Product,int>().GetCountWithSpec(CountSpec);
             var PaginatedData = new Pagination<ProductDto>()
             {
                 Index = param.PageIndex,
@@ -50,14 +50,14 @@ namespace AmazonApis.Controllers
         public async Task<ActionResult<ProductDto>> GetProductById(int id)
         {
             var spec = new productWithBrandAndTypeSpecification(id);
-            var product = await _unitOfWork.Repository<Product>().GetByIdWithSpec(spec);
+            var product = await _unitOfWork.Repository<Product,int>().GetByIdWithSpec(spec);
             if (product is null) return NotFound(new ApiResponse(404));
             return Ok(_Mapper.Map<ProductDto>(product));
         }
         [HttpGet("GetAllBrands")]
         public async Task<ActionResult<Pagination<ProductBrand>>> GetAllBrands()
         {
-            var Brands = await _unitOfWork.Repository<ProductBrand>().GetAll();
+            var Brands = await _unitOfWork.Repository<ProductBrand,int>().GetAll();
             return Ok(Brands);
 
         }
@@ -65,7 +65,7 @@ namespace AmazonApis.Controllers
         [HttpGet("GetAllTypes")]
         public async Task<ActionResult<ProductBrand>> GetAllTypes()
         {
-            var Types = await _unitOfWork.Repository<ProductBrand>().GetAll();
+            var Types = await _unitOfWork.Repository<ProductBrand,int>().GetAll();
 
             return Ok(Types);
 

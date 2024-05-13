@@ -88,6 +88,7 @@ namespace AmazonApis.Extensions
             Services.AddScoped<ITokenService, TokenService>();
             Services.AddScoped<IUnitOfWork, UnitOfWork>();
             Services.AddScoped<IOrderService, OrderService>();
+            Services.AddScoped<IPaymentService, PaymentService>();
             return Services;
         }
 

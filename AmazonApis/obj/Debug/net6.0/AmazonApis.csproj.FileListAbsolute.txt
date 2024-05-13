@@ -111,12 +111,7 @@ C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Ama
 C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\AmazonCore.dll
 C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\AmazonRepository.dll
 C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\AmazonRepository.pdb
@@ -241,3 +236,10 @@ D:\AmazonApis\AmazonApis\obj\Debug\net6.0\refint\AmazonApis.dll
 D:\AmazonApis\AmazonApis\obj\Debug\net6.0\AmazonApis.pdb
 D:\AmazonApis\AmazonApis\obj\Debug\net6.0\AmazonApis.genruntimeconfig.cache
 D:\AmazonApis\AmazonApis\obj\Debug\net6.0\ref\AmazonApis.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\Stripe.net.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\AmazonApis\AmazonApis\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
