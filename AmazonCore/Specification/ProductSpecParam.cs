@@ -13,6 +13,7 @@ namespace AmazonCore.Specification
         PriceAsc,
         PriceDesc,
         NameDesc,
+        Name
     };
     public class ProductSpecParam
     {

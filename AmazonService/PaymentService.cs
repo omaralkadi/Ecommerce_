@@ -3,6 +3,7 @@ using AmazonCore.Entities;
 using AmazonCore.Entities.Order;
 using AmazonCore.Interfaces.Repository;
 using AmazonCore.Services;
+using AmazonCore.Specification.OrderSpec;
 using Microsoft.Extensions.Configuration;
 using Stripe;
 using Stripe.BillingPortal;
@@ -48,7 +49,7 @@ namespace AmazonService
             {
                 foreach (var item in Basket.Items)
                 {
-                    var product = await _unitOfWork.Repository<Product,int>().GetById(item.Id);
+                    var product = await _unitOfWork.Repository<Product,int>().GetById(item.id);
                     if (item.Price != product.Price)
                         item.Price = product.Price;
                 }
@@ -90,6 +91,23 @@ namespace AmazonService
 
         }
 
+        public async Task<Order> UpdatePaymentIntentSucceedOrFaild(string PaymentIntentId, bool Flage)
+        {
+            var spec = new OrderWithPaymentIntentIdSpec(PaymentIntentId);
+            var Order =await _unitOfWork.Repository<Order,int>().GetByIdWithSpec(spec);
+           
+            if (Flage)
+            {
+                Order.Status = OrderStatus.PaymentRecived;
+            }
+            else
+            {
+                Order.Status = OrderStatus.PaymentFaild;
+            }
+             _unitOfWork.Repository<Order,int>().Update(Order);
+            await _unitOfWork.Complete();
+            return Order;
+        }
     }
 }
 

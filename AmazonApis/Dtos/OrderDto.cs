@@ -4,6 +4,6 @@
     {
         public string BasketId { get; set; }
         public int DelivetMethodId { get; set; }
-        public AddressDto ShippingAddress { get; set; }
+        public AddressDto shipToAddress { get; set; }
     }
 }

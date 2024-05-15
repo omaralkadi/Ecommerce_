@@ -15,7 +15,7 @@ namespace AmazonCore.Specification.OrderSpec
             Includes.Add(o => o.items);
             OrderDesc(o => o.DateTime);
         }
-        public OrderSpecifiction(string BuyerEmail, int orderId) : base(o => o.BuyerEmail == BuyerEmail && o.Id == orderId)
+        public OrderSpecifiction(string BuyerEmail, int orderId) : base(o => o.BuyerEmail == BuyerEmail && o.id == orderId)
         {
             Includes.Add(o => o.deliveryMethod);
             Includes.Add(o => o.items);

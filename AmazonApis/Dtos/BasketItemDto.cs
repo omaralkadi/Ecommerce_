@@ -9,7 +9,7 @@ namespace AmazonApis.Dtos
         public string productName { get; set; }
         [Required]
         [Range(1, int.MaxValue, ErrorMessage = "Quantity Must be at least one")]
-        public string Quantity { get; set; }
+        public int Quantity { get; set; }   
         [Required]
         [Range(0.1, double.MaxValue, ErrorMessage = "Price Can not be Zero")]
         public decimal Price { get; set; }

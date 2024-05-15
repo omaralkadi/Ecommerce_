@@ -15,7 +15,7 @@ namespace AmazonApis.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AccountController : ControllerBase
+    public class AccountsController : ControllerBase
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signManager;
@@ -23,7 +23,7 @@ namespace AmazonApis.Controllers
 
         public ITokenService _token { get; }
 
-        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signManager, ITokenService token, IMapper mapper)
+        public AccountsController(UserManager<AppUser> userManager, SignInManager<AppUser> signManager, ITokenService token, IMapper mapper)
         {
             _userManager = userManager;
             _signManager = signManager;
@@ -97,7 +97,7 @@ namespace AmazonApis.Controllers
 
         }
 
-        [HttpGet("GetCurrentUserAddress")]
+        [HttpGet("address")]
         [Authorize]
         public async Task<ActionResult<AddressDto>> GetAddress()
         {
@@ -108,14 +108,14 @@ namespace AmazonApis.Controllers
             return Ok(ReturnedAddress);
         }
 
-        [HttpPut("UpdateUserAddress")]
+        [HttpPut("address")]
         [Authorize]
-        public async Task<ActionResult<AddressDto>> UpdareAddress(AddressDto addressDto)
+        public async Task<ActionResult<AddressDto>> UpdateAddress(AddressDto addressDto)
         {
             var user = await _userManager.FindUserWithAddressAsync(User);
             var MappedAddress = _mapper.Map<Address>(addressDto);
             user.Address = MappedAddress;
-            user.Address.Id = user.Address.Id;
+            user.Address.id = user.Address.id;
 
             var Result=await _userManager.UpdateAsync(user);
             if(!Result.Succeeded) return BadRequest(new ApiResponse(400));

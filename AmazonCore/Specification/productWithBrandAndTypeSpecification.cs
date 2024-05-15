@@ -27,19 +27,22 @@ namespace AmazonCore.Specification
                     case SortingTypes.NameDesc:
                         OrderByDesc = p => p.Name;
                         break;
+                    case SortingTypes.Name:
+                        OrderBy = p => p.Name;
+                        break;
                 }
             }
             else
             {
                 OrderBy = p => p.Name;
             }
-            ApplyPagination((param.PageIndex-1)*param.PageSize,param.PageSize);
+            ApplyPagination((param.PageIndex - 1) * param.PageSize, param.PageSize);
         }
-        public productWithBrandAndTypeSpecification(int id) : base(p => p.Id == id)
+        public productWithBrandAndTypeSpecification(int id) : base(p => p.id == id)
         {
             Includes.Add(p => p.ProductBrand);
             Includes.Add(p => p.ProductType);
         }
-       
+
     }
 }

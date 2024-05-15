@@ -28,7 +28,7 @@ namespace AmazonApis.Controllers
         public async Task<ActionResult<Order>> CreateOrder(OrderDto orderdto)
         {
             var BuyerEmail = User.FindFirstValue(ClaimTypes.Email);
-            var MappedAddress = Mapper.Map<Address>(orderdto.ShippingAddress);
+            var MappedAddress = Mapper.Map<Address>(orderdto.shipToAddress);
             var Result = await _orderService.CreateOrderAsync(BuyerEmail, orderdto.BasketId, orderdto.DelivetMethodId, MappedAddress);
             if (Result is null) return BadRequest(new ApiResponse(400));
             return Ok(Result);
@@ -65,7 +65,7 @@ namespace AmazonApis.Controllers
 
         [ProducesResponseType(typeof(IEnumerable<DeliveryMethod>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
-        [HttpGet("GetAllOrderMethods")]
+        [HttpGet("deliveryMethods")]
         public async Task<ActionResult<Order>> GetAllOrderMethods()
         {
             var methods = await _orderService.GetDeliveryMethod();

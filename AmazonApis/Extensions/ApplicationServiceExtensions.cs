@@ -89,6 +89,16 @@ namespace AmazonApis.Extensions
             Services.AddScoped<IUnitOfWork, UnitOfWork>();
             Services.AddScoped<IOrderService, OrderService>();
             Services.AddScoped<IPaymentService, PaymentService>();
+            Services.AddCors(Options =>
+            {
+                Options.AddPolicy("MyPolicy", options =>
+                {
+                    options.AllowAnyHeader();
+                    options.AllowAnyMethod();
+                    options.WithOrigins(Configuration["FrontBaseUrl"]);
+                });
+            });
+
             return Services;
         }
 

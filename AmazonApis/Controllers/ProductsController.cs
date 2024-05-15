@@ -13,13 +13,13 @@ using Talabat_Core.Entities;
 
 namespace AmazonApis.Controllers
 {
-    public class ProductController : ApiController
+    public class ProductsController : ApiController
     {
 
         private readonly IUnitOfWork _unitOfWork;
         public IMapper _Mapper { get; }
 
-        public ProductController(IUnitOfWork unitOfWork, IMapper Mapper)
+        public ProductsController(IUnitOfWork unitOfWork, IMapper Mapper)
         {
             _unitOfWork = unitOfWork;
             _Mapper = Mapper;
@@ -54,7 +54,7 @@ namespace AmazonApis.Controllers
             if (product is null) return NotFound(new ApiResponse(404));
             return Ok(_Mapper.Map<ProductDto>(product));
         }
-        [HttpGet("GetAllBrands")]
+        [HttpGet("brands")]
         public async Task<ActionResult<Pagination<ProductBrand>>> GetAllBrands()
         {
             var Brands = await _unitOfWork.Repository<ProductBrand,int>().GetAll();
@@ -62,7 +62,7 @@ namespace AmazonApis.Controllers
 
         }
 
-        [HttpGet("GetAllTypes")]
+        [HttpGet("types")]
         public async Task<ActionResult<ProductBrand>> GetAllTypes()
         {
             var Types = await _unitOfWork.Repository<ProductBrand,int>().GetAll();

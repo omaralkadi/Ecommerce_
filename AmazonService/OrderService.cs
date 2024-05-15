@@ -37,8 +37,8 @@ namespace AmazonService
             {
                 foreach (var item in Basket.Items)
                 {
-                    var product = await _unitOfWork.Repository<Product,int>().GetById(item.Id);
-                    var ProductItemOrder = new ProductItemOrdered(product.Id, product.Name, product.PictureUrl);
+                    var product = await _unitOfWork.Repository<Product,int>().GetById(item.id);
+                    var ProductItemOrder = new ProductItemOrdered(product.id, product.Name, product.PictureUrl);
                     var orderItem = new OrderItem(ProductItemOrder, product.Price, item.Quantity);
                     orderItems.Add(orderItem);
                 }
